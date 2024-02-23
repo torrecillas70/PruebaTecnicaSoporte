@@ -14,6 +14,7 @@ El funcionamiento esperado de la aplicación es el siguiente:
 
 - Al acceder a la raíz de la página, la aplicación tomará un arreglo con la información del aplicante y lo entrenará hasta alcanzar el nivel necesario para aprobar la prueba.
 - Cada vez que el aplicante es entrenado, ganará puntos. Estos puntos se calculan utilizando la fórmula: `puntos_ganados = 10 / nivel_aplicante`.
+- El aplicante debe partir en nivel 1.
 - Después de corregir los errores, al entrar en la ruta raíz se deberá desplegar el nombre del aplicante y la etiqueta "Aprobado".
 
 ### Consideraciones
